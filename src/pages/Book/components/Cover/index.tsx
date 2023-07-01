@@ -8,7 +8,7 @@ const Cover: React.FC = () => {
   return (
     <S.Wrapper>
       <S.LeftSide>
-        <S.LeftTopDescription>O melhor sentimento</S.LeftTopDescription>
+        <S.LeftTopDescription>Um sentimento musical</S.LeftTopDescription>
         <S.LeftTitle>O Amor</S.LeftTitle>
         <S.LeftSubtitle>Janeiro de 2018</S.LeftSubtitle>
         <S.LeftDescription>Fábio Oliveira e Jhessy Maria</S.LeftDescription>

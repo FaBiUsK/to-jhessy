@@ -2,21 +2,37 @@ export default [
   {
     question: "Quando e onde foi o nosso primeiro encontro?",
     alternatives: [
-      "14 de fevereiro de 2020, no parque da cidade",
-      "7 de julho de 2019, em um café local",
-      "22 de dezembro de 2018, em uma festa de amigos em comum",
-      "3 de maio de 2021, em um restaurante romântico",
+      "Na casa de Fábio",
+      "Na pracinha do São Bernardo",
+      "Na casa de Jhessy",
+      "No morro das casinhas",
     ],
+    correctQuestion: 0,
+  },
+  {
+    question:
+      "De qual grupo musical foi a primeira música que gravaram um vídeo juntos?",
+    alternatives: ["Guns 'n' Roses", "System of a down", "Metallica", "Angra"],
     correctQuestion: 1,
   },
   {
-    question: "Esta é a questão 2",
+    question: "Qual é o maior medo de Fábio em um relacionamento?",
     alternatives: [
-      "Alternativa A",
-      "Alternativa B",
-      "Alternativa C",
-      "Alternativa D",
+      "Ser pai",
+      "Ter que compartilhar sua casa",
+      "De ser muito amado",
+      "Ser traído",
     ],
-    correctQuestion: 1,
+    correctQuestion: 3,
+  },
+  {
+    question: "Você acredita que o Fábio te Ama?",
+    alternatives: ["Sim", "Não"],
+    correctQuestion: 0,
+  },
+  {
+    question: "Você tem certeza que Ama o Fábio?",
+    alternatives: ["Sim", "Não"],
+    correctQuestion: 0,
   },
 ];
