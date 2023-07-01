@@ -17,7 +17,6 @@ const rightContent = css`
 export const Wrapper = styled.div`
   width: 100vw;
   height: 100vh;
-  overflow-y: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +31,8 @@ export const TextContainer = styled.div`
   width: 90%;
   height: 90%;
   display: flex;
+  overflow-x: hidden;
+  overflow-y: auto;
   gap: 20px;
 
   @media (max-width: 768px) {
