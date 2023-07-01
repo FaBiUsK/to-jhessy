@@ -17,7 +17,7 @@ const rightContent = css`
 export const Wrapper = styled.div`
   width: 100vw;
   height: 100vh;
-  /* overflow: hidden; */
+  overflow-y: auto;
   display: flex;
   justify-content: center;
   align-items: center;
